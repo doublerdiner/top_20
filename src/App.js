@@ -1,10 +1,11 @@
 
 import './App.css';
+import Chart from './containers/Chart';
 
 function App() {
   return (
     <>
-    <h1>hello</h1>
+    <Chart/>
     </>
   );
 }
