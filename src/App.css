@@ -56,3 +56,12 @@ td{
   align-content: center;
   text-align: center;
 }
+
+td img{
+  width: 5rem;
+  transition: all .2s ease-in-out;
+}
+
+td img:hover{
+  transform:scale(1.1)
+}
