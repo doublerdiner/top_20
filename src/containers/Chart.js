@@ -28,11 +28,11 @@ const Chart = ()=>{
     };
     
     return(
-        <>
-        <Head/>
-        <Dropdown onGenreSelected={onGenreSelected}/>
-        <Table songs={songs}/>
-        </>
+        <div className="body">
+            <Head/>
+            <Dropdown className="drop" onGenreSelected={onGenreSelected}/>
+            <Table songs={songs}/>
+        </div>
     )
 
 };

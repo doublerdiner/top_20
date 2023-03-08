@@ -1,0 +1,58 @@
+.body{
+  margin: 5rem 25%;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 4px solid black;
+  border-radius: 25px;
+  background: rgba(191, 228, 251, 0.784);
+}
+
+h1{
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+hr{
+  width: 75%;
+}
+
+.drop{
+  display: flex;
+  margin: 2rem;
+  gap: 2.5rem;
+  font-size: x-large;
+}
+
+.drop p{
+  margin:0;
+}
+
+.drop select{
+  width: 10rem;
+  font-size: large;
+}
+
+table{
+  border: 2px solid black;
+  padding: 1rem;
+  border-collapse: collapse;
+}
+
+th{
+  border: 2px solid black;
+  padding: 1rem;
+  background-color: rgba(130, 130, 158, 0.415);
+}
+
+tr:hover{
+  background-color: rgba(130, 130, 158, 0.415);
+}
+
+td{
+  border: 2px solid black;
+  padding: 1rem;
+  align-content: center;
+  text-align: center;
+}

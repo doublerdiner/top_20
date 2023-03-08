@@ -7,15 +7,15 @@ const Dropdown = ({onGenreSelected})=>{
     };
     
     return(
-        <>
-        <p>Genre: </p>
-        <select onChange={handleChange}>
-            <option value="https://itunes.apple.com/gb/rss/topsongs/limit=20/json" key="0">All</option>
-            <option value="https://itunes.apple.com/gb/rss/topsongs/limit=20/genre=21/json" key="1">Rock</option>
-            <option value="https://itunes.apple.com/gb/rss/topsongs/limit=20/genre=17/json" key="2">Dance</option>
-            <option value="https://itunes.apple.com/gb/rss/topsongs/limit=20/genre=6/json" key="3">Country</option>
-        </select>
-        </>
+        <div className="drop">
+            <p>Genre: </p>
+            <select onChange={handleChange}>
+                <option value="https://itunes.apple.com/gb/rss/topsongs/limit=20/json" key="0">All</option>
+                <option value="https://itunes.apple.com/gb/rss/topsongs/limit=20/genre=21/json" key="1">Rock</option>
+                <option value="https://itunes.apple.com/gb/rss/topsongs/limit=20/genre=17/json" key="2">Dance</option>
+                <option value="https://itunes.apple.com/gb/rss/topsongs/limit=20/genre=6/json" key="3">Country</option>
+            </select>
+        </div>
     )
 };
 
